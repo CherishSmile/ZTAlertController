@@ -1,0 +1,16 @@
+PODS:
+  - ZTAlertController (0.1.0)
+
+DEPENDENCIES:
+  - ZTAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  ZTAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTAlertController: 8830e5a8c395aa086f7737f05a6b142edd1b9758
+
+PODFILE CHECKSUM: 389dba1cf724230810dda0c7f7e9ba00746eb0c9
+
+COCOAPODS: 1.10.1

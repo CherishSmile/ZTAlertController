@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   }
   
   s.dependency 'ZTBase'
+  s.dependency 'ZTAttributedLabel'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
   s.dependency 'SDWebImage/GIF'

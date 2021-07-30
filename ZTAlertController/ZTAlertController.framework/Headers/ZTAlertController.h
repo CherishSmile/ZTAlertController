@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <ZTBase/ZTBase.h>
 //! Project version number for ZTAlertController.
 FOUNDATION_EXPORT double ZTAlertControllerVersionNumber;
 

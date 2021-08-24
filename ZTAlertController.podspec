@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZTAlertController'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of ZTAlertController.'
 
   s.homepage         = 'https://github.com/CherishSmile/ZTAlertController'
@@ -21,8 +21,7 @@ Pod::Spec.new do |s|
   
   s.source_files = 'ZTAlertController/ZTAlertController.framework/Headers/*.{h}'
   s.vendored_frameworks = 'ZTAlertController/ZTAlertController.framework'
-  s.public_header_files = 'ZTAlertController/ZTAlertController.framework/Headers/*.{h}'
-  s.resource = 'ZTAlertController/ZTAlertController.framework/Resource.bundle'
+  s.resource = 'ZTAlertController/ZTAlertController.bundle'
 
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'x86_64 armv7 arm64'

@@ -15,6 +15,7 @@
 		6F3D11BFBFC561BB66431D4CFE1D417A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		76AD81FE3D2D4A35F3DBA187B522F316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C5785C3F2D7E44C1CFAADEE4DC9FE8E5 /* Pods-ZTAlertController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEF569200E26A320ED916FC9CE598A3 /* Pods-ZTAlertController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12A9A5126D49A1100BE97AD /* ZTAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E12A9A5026D49A1100BE97AD /* ZTAlertController.bundle */; };
 		E167912526A5749800EC5AE5 /* ZTAlertController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E167912426A5749800EC5AE5 /* ZTAlertController.framework */; };
 		F1B2E042EC2DAEF39B8BBA37ACD32608 /* Pods-ZTAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A718B17FE4035510C21577A7C5F013 /* Pods-ZTAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		D480796C0BC0236153AEF906AC68FB47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DB2F0450B554228C2C948F7911B4AF63 /* Pods-ZTAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTAlertController_Example.modulemap"; sourceTree = "<group>"; };
 		DEF7188707FB25FC33664C21AB40C0BE /* ZTAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZTAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E12A9A5026D49A1100BE97AD /* ZTAlertController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZTAlertController.bundle; path = ZTAlertController/ZTAlertController.bundle; sourceTree = "<group>"; };
 		E167912426A5749800EC5AE5 /* ZTAlertController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZTAlertController.framework; path = ZTAlertController/ZTAlertController.framework; sourceTree = "<group>"; };
 		E4DF607703B75652232175319DA66674 /* Pods_ZTAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A718B17FE4035510C21577A7C5F013 /* Pods-ZTAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		947017A048E4678094019C7F83FCE887 /* ZTAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				E12A9A5026D49A1100BE97AD /* ZTAlertController.bundle */,
 				E167912426A5749800EC5AE5 /* ZTAlertController.framework */,
 				E9AF25BA6594ACF54F01825AE932E0F0 /* Pod */,
 				9005159669E8D32E1A73B0B67244458B /* Support Files */,
@@ -351,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12A9A5126D49A1100BE97AD /* ZTAlertController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
